@@ -71,8 +71,8 @@ public class Vendor
   public boolean makeSale ()
     {
     if(stock > 0){
-        if(deposit > price){
-            
+        if(deposit >= price){
+            stock = stock - 1;
         }
     }
     }
