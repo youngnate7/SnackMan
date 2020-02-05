@@ -7,7 +7,7 @@ import javax.swing.*;
 public class SnackBar extends JFrame
         implements ActionListener
 {
-    private static final String MY_PASSWORD = "jinx";a
+    private static final String MY_PASSWORD = "jinx";
     private VendingMachine machine1, machine2, machine3;
 
     public SnackBar()
