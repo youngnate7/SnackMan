@@ -15,7 +15,7 @@ public class Complex {
         double answer = Math.sqrt(first * first + second * second);
         return answer;
     }
-    public double add (Complex other){
+    public Complex add (Complex other){
         
     }
 }
