@@ -16,6 +16,19 @@ public class Complex {
         return answer;
     }
     public Complex add (Complex other){
-        
+        double addFirst = first + other.first;
+        double addSecond = second + other.second;
+        return new Complex (addFirst, addSecond);
+    }
+    public String toString (){
+        String answer = first + " + " + second + "i";
+        return answer;
+    }
+    public static void main(String[] args){
+        Complex a = new Complex(6.9, 7.5);
+        System.out.println (a.abs());
+        Complex b = new Complex (4.2, 3.7);
+        System.out.println(b.add(a));
+        System.out.println(a);
     }
 }
